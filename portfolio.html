@@ -17,6 +17,7 @@
   </head>
 
   <body>
+    <!--HEADER-->
     <header class="header header-pf">
       <div class="container">
         <nav class="navigation">
@@ -64,7 +65,7 @@
     </header>
 
     <main>
-      <!-- Portfolio -->
+      <!--PORTFOLIO-->
       <section class="portfolio">
         <div class="container">
           <h1 class="title visually-hidden">Наши работы</h1>
@@ -304,6 +305,8 @@
         </div>
       </section>
     </main>
+
+    <!--FOOTER-->
     <footer class="footer">
       <div class="container">
         <div class="contacts">
@@ -369,6 +372,23 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="mailing">
+          <p class="call">Подпишитесь на рассылку</p>
+          <form action="#" class="mailing-send">
+            <input
+              type="mail"
+              name="mailing-mail"
+              placeholder="E-mail"
+              class="mailing-mail"
+            />
+            <button type="submit" class="button">
+              Подписаться
+              <svg class="mailing-icon" width="24" height="24">
+                <use href="./images/sprite.svg#plane"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
